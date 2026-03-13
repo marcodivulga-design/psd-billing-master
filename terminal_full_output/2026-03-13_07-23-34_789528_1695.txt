@@ -1,0 +1,393 @@
+# Terminal Full Output
+# Terminal: default
+# Command: git commit -m "Initial commit: PSD Billing Master project files"
+# PID: 1695
+# Timestamp: 2026-03-13_07-23-34.789528
+# Original Length: 28481 characters
+# ----------------------------------------
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[master (root-commit) a4becb9] Initial commit: PSD Billing Master project files
+ 94809 files changed, 14840651 insertions(+)
+ create mode 100644 .bash_logout
+ create mode 100644 .bashrc
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AF
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AX
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/AZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BB
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BF
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BJ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BQ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/BZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CF
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CV
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CX
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/CZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/DE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/DJ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/DK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/DM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/DO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/DZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/EC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/EE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/EG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/EH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ER
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ES
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ET
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/FI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/FJ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/FM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/FO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/FR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GB
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GF
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GP
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GQ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/GY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/HK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/HN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/HR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/HT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/HU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ID
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IQ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/IT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/JE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/JM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/JO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/JP
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KP
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/KZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LB
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LV
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/LY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ME
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ML
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MP
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MQ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MV
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MX
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/MZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NP
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/NZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/OM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PF
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/PY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/QA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/RE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/RO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/RS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/RU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/RW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SB
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SJ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ST
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SV
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/SZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TD
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TH
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TJ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TL
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TO
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TR
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TV
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/TZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/UA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/UG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/US
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/UY
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/UZ
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/VC
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/VE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/VG
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/VI
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/VN
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/VU
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/WF
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/WS
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/XK
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/YE
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/YT
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ZA
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ZM
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/ZW
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/_metadata/verified_contents.json
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/manifest.fingerprint
+ create mode 100644 .browser_data_dir/AutofillStates/2025.6.13.84507/manifest.json
+ create mode 100644 .browser_data_dir/BrowserMetrics-spare.pma
+ create mode 100644 .browser_data_dir/CertificateRevocation/10400/LICENSE
+ create mode 100644 .browser_data_dir/CertificateRevocation/10400/_metadata/verified_contents.json
+ create mode 100644 .browser_data_dir/CertificateRevocation/10400/crl-set
+ create mode 100644 .browser_data_dir/CertificateRevocation/10400/manifest.fingerprint
+ create mode 100644 .browser_data_dir/CertificateRevocation/10400/manifest.json
+ create mode 100644 .browser_data_dir/Crowd Deny/2026.3.12.61/Preload Data
+ create mode 100644 .browser_data_dir/Crowd Deny/2026.3.12.61/_metadata/verified_contents.json
+ create mode 100644 .browser_data_dir/Crowd Deny/2026.3.12.61/manifest.fingerprint
+ create mode 100644 .browser_data_dir/Crowd Deny/2026.3.12.61/manifest.json
+ create mode 100644 .browser_data_dir/Default/Affiliation Database
+ create mode 100644 .browser_data_dir/Default/Affiliation Database-journal
+ create mode 100644 .browser_data_dir/Default/AutofillStrikeDatabase/LOCK
+ create mode 100644 .browser_data_dir/Default/AutofillStrikeDatabase/LOG
+ create mode 100644 .browser_data_dir/Default/BrowsingTopicsSiteData
+ create mode 100644 .browser_data_dir/Default/BrowsingTopicsSiteData-journal
+ create mode 100644 .browser_data_dir/Default/BrowsingTopicsState
+ create mode 100644 .browser_data_dir/Default/BudgetDatabase/LOCK
+ create mode 100644 .browser_data_dir/Default/BudgetDatabase/LOG
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/15145040f7f12f31_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/25cb11cb6c461754_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/376fbd401cb807fc_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/6351cd107efed247_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/7ab630d83e2964a4_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/93d81321f8c35eab_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/b608d15b93bfad83_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/d4c8d7f7543b397a_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/e85ac8952d7783d7_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/ed5152d08612b2ae_0
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/index
+ create mode 100644 .browser_data_dir/Default/Cache/Cache_Data/index-dir/the-real-index
+ create mode 100644 .browser_data_dir/Default/ClientCertificates/LOCK
+ create mode 100644 .browser_data_dir/Default/ClientCertificates/LOG
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/3d4e66a0f8e97013_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/59e9a57d2c6ebd9b_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/8a32fbdeb840d215_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/b4440afc2f079428_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/ba678a2fbd8c358c_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/cf1d2939843fa9bf_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/f31cb384bcb1b33c_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/f622b2959adc5cd4_0
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/index
+ create mode 100644 .browser_data_dir/Default/Code Cache/js/index-dir/the-real-index
+ create mode 100644 .browser_data_dir/Default/Code Cache/wasm/index
+ create mode 100644 .browser_data_dir/Default/Code Cache/wasm/index-dir/the-real-index
+ create mode 100644 .browser_data_dir/Default/Cookies
+ create mode 100644 .browser_data_dir/Default/Cookies-journal
+ create mode 100644 .browser_data_dir/Default/DIPS
+ create mode 100644 .browser_data_dir/Default/DIPS-journal
+ create mode 100644 .browser_data_dir/Default/DNR Extension Rules/mljmkmodkfigdopcpgboaalildgijkoc/rules.fbs
+ create mode 100644 .browser_data_dir/Default/DNR Extension Rules/mljmkmodkfigdopcpgboaalildgijkoc/rules.json
+ create mode 100644 .browser_data_dir/Default/DNR Extension Rules/pjifceabdjknbkaobmeokgnlfpdfciaf/rules.fbs
+ create mode 100644 .browser_data_dir/Default/DNR Extension Rules/pjifceabdjknbkaobmeokgnlfpdfciaf/rules.json
+ create mode 100644 .browser_data_dir/Default/DawnGraphiteCache/data_0
+ create mode 100644 .browser_data_dir/Default/DawnGraphiteCache/data_1
+ create mode 100644 .browser_data_dir/Default/DawnGraphiteCache/data_2
+ create mode 100644 .browser_data_dir/Default/DawnGraphiteCache/data_3
+ create mode 100644 .browser_data_dir/Default/DawnGraphiteCache/index
+ create mode 100644 .browser_data_dir/Default/DawnWebGPUCache/data_0
+ create mode 100644 .browser_data_dir/Default/DawnWebGPUCache/data_1
+ create mode 100644 .browser_data_dir/Default/DawnWebGPUCache/data_2
+ create mode 100644 .browser_data_dir/Default/DawnWebGPUCache/data_3
+ create mode 100644 .browser_data_dir/Default/DawnWebGPUCache/index
+ create mode 100644 .browser_data_dir/Default/Download Service/EntryDB/LOCK
+ create mode 100644 .browser_data_dir/Default/Download Service/EntryDB/LOG
+ create mode 100644 .browser_data_dir/Default/Extension Rules/CURRENT
+ create mode 100644 .browser_data_dir/Default/Extension Rules/LOCK
+ create mode 100644 .browser_data_dir/Default/Extension Rules/LOG
+ create mode 100644 .browser_data_dir/Default/Extension Rules/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Extension Scripts/CURRENT
+ create mode 100644 .browser_data_dir/Default/Extension Scripts/LOCK
+ create mode 100644 .browser_data_dir/Default/Extension Scripts/LOG
+ create mode 100644 .browser_data_dir/Default/Extension Scripts/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Extension State/CURRENT
+ create mode 100644 .browser_data_dir/Default/Extension State/LOCK
+ create mode 100644 .browser_data_dir/Default/Extension State/LOG
+ create mode 100644 .browser_data_dir/Default/Extension State/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Favicons
+ create mode 100644 .browser_data_dir/Default/Favicons-journal
+ create mode 100644 .browser_data_dir/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+ create mode 100644 .browser_data_dir/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+ create mode 100644 .browser_data_dir/Default/Feature Engagement Tracker/EventDB/LOCK
+ create mode 100644 .browser_data_dir/Default/Feature Engagement Tracker/EventDB/LOG
+ create mode 100644 .browser_data_dir/Default/GCM Store/Encryption/CURRENT
+ create mode 100644 .browser_data_dir/Default/GCM Store/Encryption/LOCK
+ create mode 100644 .browser_data_dir/Default/GCM Store/Encryption/LOG
+ create mode 100644 .browser_data_dir/Default/GCM Store/Encryption/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/GPUCache/data_0
+ create mode 100644 .browser_data_dir/Default/GPUCache/data_1
+ create mode 100644 .browser_data_dir/Default/GPUCache/data_2
+ create mode 100644 .browser_data_dir/Default/GPUCache/data_3
+ create mode 100644 .browser_data_dir/Default/GPUCache/index
+ create mode 100644 .browser_data_dir/Default/History
+ create mode 100644 .browser_data_dir/Default/History-journal
+ create mode 100644 .browser_data_dir/Default/InterestGroups
+ create mode 100644 .browser_data_dir/Default/InterestGroups-wal
+ create mode 100644 .browser_data_dir/Default/LOCK
+ create mode 100644 .browser_data_dir/Default/LOG
+ create mode 100644 .browser_data_dir/Default/Local Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/CURRENT
+ create mode 100644 .browser_data_dir/Default/Local Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/LOCK
+ create mode 100644 .browser_data_dir/Default/Local Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/LOG
+ create mode 100644 .browser_data_dir/Default/Local Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Local Storage/leveldb/CURRENT
+ create mode 100644 .browser_data_dir/Default/Local Storage/leveldb/LOCK
+ create mode 100644 .browser_data_dir/Default/Local Storage/leveldb/LOG
+ create mode 100644 .browser_data_dir/Default/Local Storage/leveldb/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Login Data
+ create mode 100644 .browser_data_dir/Default/Login Data For Account
+ create mode 100644 .browser_data_dir/Default/Login Data For Account-journal
+ create mode 100644 .browser_data_dir/Default/Login Data-journal
+ create mode 100644 .browser_data_dir/Default/Managed Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/CURRENT
+ create mode 100644 .browser_data_dir/Default/Managed Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/LOCK
+ create mode 100644 .browser_data_dir/Default/Managed Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/LOG
+ create mode 100644 .browser_data_dir/Default/Managed Extension Settings/pjifceabdjknbkaobmeokgnlfpdfciaf/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Network Action Predictor
+ create mode 100644 .browser_data_dir/Default/Network Action Predictor-journal
+ create mode 100644 .browser_data_dir/Default/Network Persistent State
+ create mode 100644 .browser_data_dir/Default/PersistentOriginTrials/LOCK
+ create mode 100644 .browser_data_dir/Default/PersistentOriginTrials/LOG
+ create mode 100644 .browser_data_dir/Default/Preferences
+ create mode 100644 .browser_data_dir/Default/PreferredApps
+ create mode 100644 .browser_data_dir/Default/PrivateAggregation
+ create mode 100644 .browser_data_dir/Default/PrivateAggregation-journal
+ create mode 100644 .browser_data_dir/Default/Reporting and NEL
+ create mode 100644 .browser_data_dir/Default/Reporting and NEL-journal
+ create mode 100644 .browser_data_dir/Default/SCT Auditing Pending Reports
+ create mode 100644 .browser_data_dir/Default/Safe Browsing Cookies
+ create mode 100644 .browser_data_dir/Default/Safe Browsing Cookies-journal
+ create mode 100644 .browser_data_dir/Default/Secure Preferences
+ create mode 100644 .browser_data_dir/Default/Segmentation Platform/SegmentInfoDB/LOCK
+ create mode 100644 .browser_data_dir/Default/Segmentation Platform/SegmentInfoDB/LOG
+ create mode 100644 .browser_data_dir/Default/Segmentation Platform/SignalDB/LOCK
+ create mode 100644 .browser_data_dir/Default/Segmentation Platform/SignalDB/LOG
+ create mode 100644 .browser_data_dir/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+ create mode 100644 .browser_data_dir/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+ create mode 100644 .browser_data_dir/Default/Service Worker/Database/CURRENT
+ create mode 100644 .browser_data_dir/Default/Service Worker/Database/LOCK
+ create mode 100644 .browser_data_dir/Default/Service Worker/Database/LOG
+ create mode 100644 .browser_data_dir/Default/Service Worker/Database/MANIFEST-000001
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/013888a1cda32b90_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/297ecea5cebb5dfe_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/4cb013792b196a35_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/67a473248953641b_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/b6c28cea6ed9dfc1_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/f1cdccba37924bda_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/fa813c9ad67834ac_0
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/index
+ create mode 100644 .browser_data_dir/Default/Service Worker/ScriptCache/index-dir/the-real-index
+ create mode 100644 .browser_data_dir/Default/Session Storage

@@ -40,3 +40,6 @@ drizzle/migrations/
 
 # Node Version Manager
 .nvm/
+
+# pnpm store
+.local/share/pnpm/store/
