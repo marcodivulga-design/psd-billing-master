@@ -1,8 +1,8 @@
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import * as mysql2 from "mysql2/promise"; // Import mysql2/promise for pool creation
-import { users } from "../drizzle/schema.js";
-import { ENV } from './_core/env';
+import { users } from "../drizzle/schema.ts";
+import { ENV } from './_core/env.ts';
 let _db = null;
 // Lazily create the drizzle instance so local tooling can run without a DB.
 export async function getDb() {

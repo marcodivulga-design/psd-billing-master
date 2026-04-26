@@ -1,4 +1,4 @@
-import { router, publicProcedure } from './trpc';
+import { router, publicProcedure } from './trpc.ts';
 
 export const sdkDocsRouter = router({
   getIntegrationDocs: publicProcedure.query(async () => {
