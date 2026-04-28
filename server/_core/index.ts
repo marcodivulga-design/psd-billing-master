@@ -17,6 +17,42 @@ const appRouter = router({
 export type AppRouter = typeof appRouter;
 
 const app = express();
+
+  // AVI Agent - System Inventory Endpoint (Standardized v1.0.5)
+  // EVOLUÇÃO: Prioridade Máxima - Bypass de Cache e Fallthrough
+  app.all('/api/system/inventory', (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    res.setHeader('X-AVI-Agent-Layer', 'Evolution-v1.0.5');
+    
+    try {
+      const inventory = {
+        appName: process.env.APP_NAME || 'PSD Ecosystem App',
+        appId: process.env.APP_ID || 'psd-app',
+        version: '1.0.5',
+        status: 'online',
+        timestamp: new Date().toISOString(),
+        environment: process.env.NODE_ENV || 'production',
+        endpoints: ['/api/system/inventory', '/api/trpc', '/api/psd'],
+        health: {
+          uptime: process.uptime(),
+          memoryUsage: process.memoryUsage(),
+        },
+      };
+      return res.status(200).send(JSON.stringify(inventory));
+    } catch (error) {
+      return res.status(500).send(JSON.stringify({ error: 'Inventory failed', message: error instanceof Error ? error.message : 'Unknown error' }));
+    }
+  });
+
+  // Pre-emptive route blocking to prevent HTML fallthrough for API
+  app.use('/api/*', (req, res, next) => {
+    if (req.originalUrl === '/api/system/inventory') return next();
+    next();
+  });
+
 app.use(cors());
 app.use(express.json());
 
