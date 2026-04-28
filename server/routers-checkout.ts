@@ -1,6 +1,5 @@
-import { router, publicProcedure } from './trpc.ts';
-
 import { z } from 'zod';
+import { router, publicProcedure } from './trpc.ts';
 import { asaas } from './asaas.ts';
 
 export const checkoutRouter = router({

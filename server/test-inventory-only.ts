@@ -1,23 +1,6 @@
 import express from 'express';
-import * as trpcExpress from '@trpc/server/adapters/express';
-import { router } from '../trpc';
-import { checkoutRouter } from '../routers-checkout.ts';
-import { sdkDocsRouter } from '../routers-sdk-docs.ts';
-import { plansRouter } from '../routers-plans.ts';
-import { hubMentorRouter } from '../routers-hub-mentor.ts';
-import cors from 'cors';
-
-const appRouter = router({
-  checkout: checkoutRouter,
-  sdk: sdkDocsRouter,
-  plans: plansRouter,
-  hubMentor: hubMentorRouter,
-});
-
-export type AppRouter = typeof appRouter;
 
 const app = express();
-app.use(cors());
 app.use(express.json());
 
 // REST Fallback para endpoint de inventário
@@ -65,17 +48,8 @@ app.get('/api/system/inventory', (_req, res) => {
   }
 });
 
-app.use(
-  '/api/trpc',
-  trpcExpress.createExpressMiddleware({
-    router: appRouter,
-    createContext: () => ({}),
-  }),
-);
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`🚀 Test Server running on http://localhost:${PORT}`);
   console.log(`✅ AVI Agent endpoint available at http://localhost:${PORT}/api/system/inventory`);
-  console.log(`📊 Hub Mentor ready for ecosystem monitoring`);
 });
