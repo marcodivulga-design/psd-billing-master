@@ -5,6 +5,7 @@ import { checkoutRouter } from './routers-checkout';
 import { plansRouter } from './routers-plans';
 import { sdkDocsRouter } from './routers-sdk-docs';
 import { hubMentorRouter } from './routers-hub-mentor';
+import { instagramRouter } from './routers-instagram';
 
 export const t = initTRPC.context<any>().create({
   errorFormatter({ shape, error }) {
@@ -112,6 +113,7 @@ export const inventoryRouter = router({
 export const appRouter = router({
   inventory: inventoryRouter,
   hubMentor: hubMentorRouter,
+  instagram: instagramRouter,
   checkout: checkoutRouter,
   plans: plansRouter,
   sdkDocs: sdkDocsRouter,
