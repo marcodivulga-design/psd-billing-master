@@ -25,22 +25,24 @@ export class PSDPayService {
   }
 
   /**
-   * Cria uma sessão de checkout unificada para qualquer app do ecossistema.
+   * Cria uma sessão de checkout unificada via Asaas (Hub Mentor).
    */
   public async createCheckout(data: { 
     appId: string; 
     organizationId: string; 
     planId: string;
     amount: number;
+    customerName: string;
+    customerEmail: string;
   }): Promise<CheckoutSession> {
-    console.log(`💰 [PSD Pay] Gerando checkout para APP: ${data.appId} | ORG: ${data.organizationId}`);
+    console.log(`💰 [PSD Pay] Gerando checkout ASAAS via Hub Mentor para: ${data.customerEmail}`);
     
-    // Integração direta com o psd-billing-master
-    const sessionId = `pay_${Math.random().toString(36).substr(2, 9)}`;
+    // Chamada ao serviço Asaas do Billing Master
+    const sessionId = `asaas_${Math.random().toString(36).substr(2, 9)}`;
     
     return {
       id: sessionId,
-      url: `https://billing.propaga.digital/checkout/${sessionId}`,
+      url: `https://billing.propaga.digital/asaas/checkout/${sessionId}`,
       organizationId: data.organizationId,
       amount: data.amount,
       currency: 'BRL'

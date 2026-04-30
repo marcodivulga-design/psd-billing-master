@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --psd-primary: #7C3AED;
+  --psd-primary-dark: #6D28D9;
+  --psd-primary-light: #A78BFA;
+  --psd-bg-deep: #0B0B0F;
+  --psd-bg-main: #111117;
+  --psd-bg-surface: #1A1A22;
+  --psd-text-bright: #FFFFFF;
+  --psd-text-muted: #A1A1AA;
+  --psd-text-dim: #71717A;
+}
+
+body {
+  background-color: var(--psd-bg-deep);
+  color: var(--psd-text-bright);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.psd-card {
+  background-color: var(--psd-bg-surface);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.psd-card:hover {
+  border-color: rgba(124, 58, 237, 0.3);
+  box-shadow: 0 10px 40px -10px rgba(124, 58, 237, 0.2);
+}
+
+.psd-button-primary {
+  background-color: var(--psd-primary);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px 0 rgba(124, 58, 237, 0.39);
+}
+
+.psd-button-primary:hover {
+  background-color: var(--psd-primary-dark);
+  box-shadow: 0 6px 20px rgba(124, 58, 237, 0.23);
+  transform: translateY(-1px);
+}
+
+.psd-button-primary:active {
+  transform: translateY(0);
+}
+
+/* Scrollbar Customizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--psd-bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--psd-bg-surface);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--psd-primary-dark);
+}
