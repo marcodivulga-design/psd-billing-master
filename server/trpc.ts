@@ -90,6 +90,10 @@ import { studioPitchAnalysisRouter } from './studio-pitch-analysis.router';
 import { offlineRouter } from './offline.router';
 import { instagramRouter } from './instagram.router';
 
+// MV-Academy Support Routers
+import { continuousLearningRouter } from './continuousLearning.router';
+import { intelligentGoalsRouter } from './intelligentGoals.router';
+
 export const t = initTRPC.context<any>().create({
   errorFormatter({ shape, error }) {
     return {
@@ -284,6 +288,10 @@ export const appRouter = router({
   // Data Routers (2)
   offline: offlineRouter,
   instagram: instagramRouter,
+  
+  // MV-Academy Support Routers (2)
+  continuousLearning: continuousLearningRouter,
+  intelligentGoals: intelligentGoalsRouter,
 });
 
 export type AppRouter = typeof appRouter;
