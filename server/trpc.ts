@@ -7,6 +7,89 @@ import { sdkDocsRouter } from './routers-sdk-docs';
 import { hubMentorRouter } from './routers-hub-mentor';
 import { instagramRouter } from './routers-instagram';
 
+// Music Routers
+import { songsRouter } from './songs.router';
+import { playlistsRouter } from './playlists.router';
+import { spotifyRouter } from './spotify.router';
+import { spotifyHubRouter } from './spotify-hub.router';
+import { spotifySyncRouter } from './spotify-sync.router';
+import { appleMusicIntegrationRouter } from './apple-music-integration.router';
+import { musicCollectorRouter } from './music-collector.router';
+import { musicPlatformsRouter } from './music-platforms.router';
+import { playbackRouter } from './playback.router';
+import { playbackHistoryRouter } from './playback-history.router';
+import { smartPlaylistsRouter } from './smart-playlists.router';
+import { transposeEngineRouter } from './transpose-engine.router';
+import { audioUploadRouter } from './audio-upload.router';
+import { audioSharingRouter } from './audio-sharing.router';
+import { audioCommentsRouter } from './audio-comments.router';
+import { catholicMusicRouter } from './catholic-music.router';
+import { spotifyAdvancedRouter } from './spotify-advanced.router';
+
+// Liturgical Routers
+import { liturgyOfHoursRouter } from './liturgy-of-hours.router';
+import { liturgicalCalendarCompleteRouter } from './liturgical-calendar-complete.router';
+import { liturgicalCalendarRouter } from './liturgical-calendar.router';
+import { catechismInteractiveRouter } from './catechism-interactive.router';
+import { rosaryDigitalRouter } from './rosary-digital.router';
+import { attendanceReportsRouter } from './attendance-reports.router';
+import { rehearsalsRouter } from './rehearsals.router';
+import { spiritualMentoringRouter } from './spiritual-mentoring.router';
+import { dailyReflectionRouter } from './daily-reflection.router';
+import { ministriesRouter } from './ministries.router';
+
+// Streaming Routers
+import { liveStreamingRouter } from './live-streaming.router';
+import { youtubeHubRouter } from './youtube-hub.router';
+import { whatsappBusinessRouter } from './whatsapp-business.router';
+import { eventbriteIntegrationRouter } from './eventbrite-integration.router';
+import { deepLinkingRouter } from './deep-linking.router';
+import { socialShareRouter } from './social-share.router';
+import { socialAuthRouter } from './social-auth.router';
+
+// AI & Recommendations Routers
+import { garimpeirAIRouter } from './garimpeiro-ai.router';
+import { personalizedRecommendationsRouter } from './personalized-recommendations.router';
+import { realtimeRecommendationsRouter } from './realtime-recommendations.router';
+import { recommendationsRouter } from './recommendations.router';
+import { analyticsAdvancedRouter } from './analytics-advanced.router';
+import { notificationTriggersRouter } from './notification-triggers.router';
+import { notificationsRealtimeRouter } from './notifications-realtime.router';
+import { notificationsRouter } from './notifications.router';
+import { pushNotificationsRouter } from './push-notifications.router';
+import { adminDashboardRouter } from './admin-dashboard.router';
+import { systemAdminRouter } from './system-admin.router';
+
+// Payments Routers
+import { stripeHubRouter } from './stripe-hub.router';
+import { stripeMonetizationRouter } from './stripe-monetization.router';
+import { stripeWebhooksRouter } from './stripe-webhooks.router';
+import { stripeRouter } from './stripe.router';
+import { psdPaymentsHubRouter } from './psd-payments-hub.router';
+import { psdPaymentsRouter } from './psd-payments.router';
+import { donationsRouter } from './donations.router';
+import { affiliateSystemRouter } from './affiliate-system.router';
+import { externalApisRouter } from './external-apis.router';
+import { csvImportRouter } from './csv-import.router';
+
+// Community Routers
+import { communityRouter } from './community.router';
+import { friendsCollaborativeRouter } from './friends-collaborative.router';
+import { groupChatRouter } from './group-chat.router';
+import { networkingRouter } from './networking.router';
+import { badgesAchievementsRouter } from './badges-achievements.router';
+import { studioCommunityRouter } from './studio-community-sharing.router';
+
+// Studio Routers
+import { studioArrangementsRouter } from './studio-arrangements.router';
+import { studioDawIntegrationRouter } from './studio-daw-integration.router';
+import { studioMixerRouter } from './studio-mixer.router';
+import { studioPitchAnalysisRouter } from './studio-pitch-analysis.router';
+
+// Data Routers
+import { offlineRouter } from './offline.router';
+import { instagramRouter } from './instagram.router';
+
 export const t = initTRPC.context<any>().create({
   errorFormatter({ shape, error }) {
     return {
@@ -111,12 +194,96 @@ export const inventoryRouter = router({
 });
 
 export const appRouter = router({
+  // Core Routers
   inventory: inventoryRouter,
   hubMentor: hubMentorRouter,
   instagram: instagramRouter,
   checkout: checkoutRouter,
   plans: plansRouter,
   sdkDocs: sdkDocsRouter,
+  
+  // Music Routers (17)
+  songs: songsRouter,
+  playlists: playlistsRouter,
+  spotify: spotifyRouter,
+  spotifyHub: spotifyHubRouter,
+  spotifySync: spotifySyncRouter,
+  appleMusic: appleMusicIntegrationRouter,
+  musicCollector: musicCollectorRouter,
+  musicPlatforms: musicPlatformsRouter,
+  playback: playbackRouter,
+  playbackHistory: playbackHistoryRouter,
+  smartPlaylists: smartPlaylistsRouter,
+  transposeEngine: transposeEngineRouter,
+  audioUpload: audioUploadRouter,
+  audioSharing: audioSharingRouter,
+  audioComments: audioCommentsRouter,
+  catholicMusic: catholicMusicRouter,
+  spotifyAdvanced: spotifyAdvancedRouter,
+  
+  // Liturgical Routers (10)
+  liturgyOfHours: liturgyOfHoursRouter,
+  liturgicalCalendarComplete: liturgicalCalendarCompleteRouter,
+  liturgicalCalendar: liturgicalCalendarRouter,
+  catechismInteractive: catechismInteractiveRouter,
+  rosaryDigital: rosaryDigitalRouter,
+  attendanceReports: attendanceReportsRouter,
+  rehearsals: rehearsalsRouter,
+  spiritualMentoring: spiritualMentoringRouter,
+  dailyReflection: dailyReflectionRouter,
+  ministries: ministriesRouter,
+  
+  // Streaming Routers (7)
+  liveStreaming: liveStreamingRouter,
+  youtubeHub: youtubeHubRouter,
+  whatsappBusiness: whatsappBusinessRouter,
+  eventbriteIntegration: eventbriteIntegrationRouter,
+  deepLinking: deepLinkingRouter,
+  socialShare: socialShareRouter,
+  socialAuth: socialAuthRouter,
+  
+  // AI & Recommendations Routers (11)
+  garimpeirAI: garimpeirAIRouter,
+  personalizedRecommendations: personalizedRecommendationsRouter,
+  realtimeRecommendations: realtimeRecommendationsRouter,
+  recommendations: recommendationsRouter,
+  analyticsAdvanced: analyticsAdvancedRouter,
+  notificationTriggers: notificationTriggersRouter,
+  notificationsRealtime: notificationsRealtimeRouter,
+  notifications: notificationsRouter,
+  pushNotifications: pushNotificationsRouter,
+  adminDashboard: adminDashboardRouter,
+  systemAdmin: systemAdminRouter,
+  
+  // Payments Routers (10)
+  stripeHub: stripeHubRouter,
+  stripeMonetization: stripeMonetizationRouter,
+  stripeWebhooks: stripeWebhooksRouter,
+  stripe: stripeRouter,
+  psdPaymentsHub: psdPaymentsHubRouter,
+  psdPayments: psdPaymentsRouter,
+  donations: donationsRouter,
+  affiliateSystem: affiliateSystemRouter,
+  externalApis: externalApisRouter,
+  csvImport: csvImportRouter,
+  
+  // Community Routers (6)
+  community: communityRouter,
+  friendsCollaborative: friendsCollaborativeRouter,
+  groupChat: groupChatRouter,
+  networking: networkingRouter,
+  badgesAchievements: badgesAchievementsRouter,
+  studioCommunity: studioCommunityRouter,
+  
+  // Studio Routers (4)
+  studioArrangements: studioArrangementsRouter,
+  studioDawIntegration: studioDawIntegrationRouter,
+  studioMixer: studioMixerRouter,
+  studioPitchAnalysis: studioPitchAnalysisRouter,
+  
+  // Data Routers (2)
+  offline: offlineRouter,
+  instagram: instagramRouter,
 });
 
 export type AppRouter = typeof appRouter;
