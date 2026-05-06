@@ -57,22 +57,22 @@ export async function upsertUser(user) {
         };
         textFields.forEach(assignNullable);
         if (user.lastSignedIn !== undefined) {
-            values.lastSignedIn = user.lastSignedIn;
-            updateSet.lastSignedIn = user.lastSignedIn;
+            (values as any).lastSignedIn = user.lastSignedIn;
+            (updateSet as any).lastSignedIn = user.lastSignedIn;
         }
         if (user.role !== undefined) {
-            values.role = user.role;
-            updateSet.role = user.role;
+            (values as any).role = user.role;
+            (updateSet as any).role = user.role;
         }
         else if (user.openId === ENV.ownerOpenId) {
-            values.role = 'admin';
-            updateSet.role = 'admin';
+            (values as any).role = 'admin';
+            (updateSet as any).role = 'admin';
         }
-        if (!values.lastSignedIn) {
-            values.lastSignedIn = new Date();
+        if (!(values as any).lastSignedIn) {
+            (values as any).lastSignedIn = new Date();
         }
         if (Object.keys(updateSet).length === 0) {
-            updateSet.lastSignedIn = new Date();
+            (updateSet as any).lastSignedIn = new Date();
         }
         await db.insert(users).values(values).onDuplicateKeyUpdate({
             set: updateSet,

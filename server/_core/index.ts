@@ -4,14 +4,12 @@ import { router } from '../trpc';
 import { checkoutRouter } from '../routers-checkout.ts';
 import { sdkDocsRouter } from '../routers-sdk-docs.ts';
 import { plansRouter } from '../routers-plans.ts';
-import { hubMentorRouter } from '../routers-hub-mentor.ts';
 import cors from 'cors';
 
 const appRouter = router({
   checkout: checkoutRouter,
   sdk: sdkDocsRouter,
   plans: plansRouter,
-  hubMentor: hubMentorRouter,
 });
 
 export type AppRouter = typeof appRouter;
