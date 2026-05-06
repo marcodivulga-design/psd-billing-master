@@ -5,6 +5,8 @@ import { checkoutRouter } from './routers-checkout';
 import { plansRouter } from './routers-plans';
 import { sdkDocsRouter } from './routers-sdk-docs';
 import { instagramRouter } from './routers-instagram';
+import { syncRouter } from './routers-sync';
+import { permissionsRouter } from './routers-permissions';
 
 export const t = initTRPC.context<any>().create({
   errorFormatter({ shape, error }) {
@@ -27,6 +29,8 @@ export const appRouter = router({
   plans: plansRouter,
   sdkDocs: sdkDocsRouter,
   instagram: instagramRouter,
+  sync: syncRouter,
+  permissions: permissionsRouter,
 });
 
 export type AppRouter = typeof appRouter;

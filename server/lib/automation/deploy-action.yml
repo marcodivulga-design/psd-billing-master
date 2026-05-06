@@ -1,0 +1,29 @@
+name: PSD Auto-Deploy
+
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build and Deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          echo "Iniciando deploy automático do ecossistema PSD..."
+          # Aqui entraria o comando específico de deploy (Vercel, Railway, etc)
+          # Exemplo: vercel --token ${{ secrets.VERCEL_TOKEN }} --prod
